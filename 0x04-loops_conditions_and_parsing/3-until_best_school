@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Displays 'Best School' in stdout
+
+index=0
+
+until [ $index -eq 10 ]
+do
+  echo "Best School"
+  ((index++))
+done
